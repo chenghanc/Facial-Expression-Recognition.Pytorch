@@ -85,7 +85,8 @@ net.load_state_dict(checkpoint['net'])
 net.cuda()
 net.eval()
 Testset = FER2013(split = opt.split, transform=transform_test)
-Testloader = torch.utils.data.DataLoader(Testset, batch_size=128, shuffle=False, num_workers=1)
+#Testloader = torch.utils.data.DataLoader(Testset, batch_size=128, shuffle=False, num_workers=1)
+Testloader = torch.utils.data.DataLoader(Testset, batch_size=64,  shuffle=False, num_workers=1)
 correct = 0
 total = 0
 all_target = []
