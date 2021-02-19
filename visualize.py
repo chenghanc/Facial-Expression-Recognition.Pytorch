@@ -88,7 +88,8 @@ plt.tight_layout()
 # show emojis
 
 #plt.show()
-plt.savefig(os.path.join('images/results/l.png'))
+#plt.savefig(os.path.join('images/results/l.png'))
+plt.savefig(os.path.join('images/1l.png'))
 plt.close()
 
 print("The Expression is %s" %str(class_names[int(predicted.cpu().numpy())]))
