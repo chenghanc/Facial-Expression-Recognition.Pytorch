@@ -6,8 +6,8 @@ A CNN based pytorch implementation on facial expression recognition (FER2013 and
 ![Image text](https://raw.githubusercontent.com/WuJie1010/Facial-Expression-Recognition.Pytorch/master/demo/2.png)
 
 ## Dependencies ##
-- Python 2.7
-- Pytorch >=0.2.0
+- Python 3.8.5
+- Pytorch 1.6.0
 - h5py (Preprocessing)
 - sklearn (plot confusion matrix)
 
