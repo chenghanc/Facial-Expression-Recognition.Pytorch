@@ -32,7 +32,7 @@ best_Test_acc = 0  # best PrivateTest accuracy
 best_Test_acc_epoch = 0
 start_epoch = 0  # start from epoch 0 or last checkpoint epoch
 
-learning_rate_decay_start = 50  # 50
+learning_rate_decay_start = 60  # 50
 learning_rate_decay_every = 5 # 5
 learning_rate_decay_rate = 0.9 # 0.9
 
