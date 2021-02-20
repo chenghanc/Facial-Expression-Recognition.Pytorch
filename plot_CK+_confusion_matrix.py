@@ -113,7 +113,7 @@ np.set_printoptions(precision=2)
 
 # Plot normalized confusion matrix
 plt.figure(figsize=(10, 8))
-plot_confusion_matrix(matrix, classes=class_names, normalize=False,
+plot_confusion_matrix(matrix, classes=class_names, normalize=True,
                       title= 'Confusion Matrix (Accuracy: %0.3f%%)' %acc)
 #plt.show()
 plt.savefig(os.path.join(opt.dataset + '_' + opt.model, 'Confusion Matrix.png'))
