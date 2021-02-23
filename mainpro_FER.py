@@ -66,6 +66,8 @@ if opt.model == 'VGG19':
     net = VGG('VGG19')
 elif opt.model  == 'Resnet18':
     net = ResNet18()
+elif opt.model == 'Resnet34':
+    net = ResNet34()
 
 if opt.resume:
     # Load checkpoint.
