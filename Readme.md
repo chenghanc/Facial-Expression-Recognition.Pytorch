@@ -51,6 +51,6 @@ contains a total of 981 facial expressions. we use 10-fold Cross validation in t
 - python plot_CK+_confusion_matrix.py --model VGG19
 
 ###      CK+ Accurary      ###
-- Model：    VGG19 ;       Test_acc：   94.646%   <Br/>
+- Model：    VGG19 ;       Test_acc：   **94.848%**   <Br/>
 - Model：   Resnet18 ;     Test_acc：   94.040%   
 
