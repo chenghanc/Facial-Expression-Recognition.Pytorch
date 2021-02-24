@@ -75,10 +75,12 @@ class_names = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral'
 # Model
 if opt.model == 'VGG19':
     net = VGG('VGG19')
-elif opt.model  == 'Resnet18':
+elif opt.model == 'Resnet18':
     net = ResNet18()
 elif opt.model == 'Resnet34':
     net = ResNet34()
+elif opt.model == 'Resnet50':
+    net = ResNet50()
 
 path = os.path.join(opt.dataset + '_' + opt.model)
 checkpoint = torch.load(os.path.join(path, opt.split + '_model.t7'))

@@ -68,10 +68,12 @@ class_names = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Contempt
 # Model
 if opt.model == 'VGG19':
     net = VGG('VGG19')
-elif opt.model  == 'Resnet18':
+elif opt.model == 'Resnet18':
     net = ResNet18()
 elif opt.model == 'Resnet34':
     net = ResNet34()
+elif opt.model == 'Resnet50':
+    net = ResNet50()
 
 correct = 0
 total = 0
